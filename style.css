@@ -1,0 +1,61 @@
+/* ===== General Page Styling ===== */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+/* ===== Header Styling ===== */
+header {
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+/* ===== Section Styling ===== */
+section {
+  padding: 20px;
+  text-align: center;
+}
+
+/* ===== Link Styling ===== */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* ===== Button Styling ===== */
+.buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+/* ===== Message Area ===== */
+#messageArea {
+  margin-top: 25px;
+  font-size: 1.1rem;
+  color: #007bff;
+  font-weight: bold;
+}
